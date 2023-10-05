@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./src/css/transicoes.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanos e Animais</title>
+</head>
+<body style="background: linear-gradient(to bottom right, black, #696969)">
+    <header>
+        <div class="divlogo hidden">
+            <img onclick="menu();" src="./src/image/logo.jpg" class="logo">
+            <h2 class="textologo"><p class="divisao">Interação entre Animais e Humanos</p></h2>
+        </div>
+        <div class="divmenu hidden">
+            <button class="botaomenu" onclick="coop();" id="coop" name="coop"><h2 class="textomenu">Cooperação</h2></button>
+            <label class="divisor"></label>
+            <button onclick="caca();" class="botaomenu" id="caca" name="coop"><h2 class="textomenu">Caça</h2></button>
+            <label class="divisor"></label>
+            <button class="botaomenuativado"><h2 class="textomenu" name="adora" id="adora">Adoração</h2></button>
+        </div>
+        <label class="divisor"></label>
+        <div class="divlogo hidden">
+            <h3 class="jogotext"><p class="jogop">J O G O</p></h3>
+            <img src="./src/image/caça.jpg" class="jog" onclick="jogo();">
+        </div>
+    </header>
+    <div class="bemvindivpr hidden">
+        <div class="op">
+            <h1 class="titulaopr"><p>Adoração</h1>
+        </div>
+        <div class="op">
+            <h3 class="bemvinpr"><p>Nesta aba, iremos mostrar e explicar sobre a adoração a animais e ídolos com aparencias de animais que era feita nos tempos antigos, como por exemplo no Egito antigo com os deuses egípcios.</p></h3>
+        </div>
+    </div>
+    <div class="bemvindivpr hidden">
+        <div class="op">
+            <img class="imgexplipr" src="./src/image/bastet.jpg">
+        </div>
+        <div class="oppr">
+            <h3 class="bemvinpr"><p>Em certas sociedades é cultural venerar um animal devido a simbologia cujo geralmente é relacionada a alguma crença mitíca e religiosa, como exemplo podemos citar o antigo Egito que veneravam deuses que possuiam caracteristicas animais como Bastet que possui caracteristicas de gato, Anubis que apresenta caracteristicas de chachorro da raça chacal e Horus que é representado com caracteristicas de um falcão, eles eram adorados por aqueles povos.</p></h3>
+        </div>
+    </div>
+    <div class="bemvindivpra hidden">
+        <div class="oppr">
+            <h3 class="bemvinpra"><p>Também na adoração a animais aonde os povos adoravam os animais por motivos religiosos, acreditando que eles eram alguma existencia mitíca com um grande significado, como exemplo ao lado os gatos para os egípcios que eram considerados como seres mitícos magicos que representavam grande sorte para os egípcios. Existem atualmente diversas culturas que adoram animais como seres sagrados como as vacas na religião índiana.</p></h3>
+        </div>
+        <div class="op">
+            <img class="imgexplipra" src="./src/image/adroroaroa.jpeg">
+        </div>
+    </div>
+</body>
+<script src="./src/js/index.js"></script>
+</html>

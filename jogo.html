@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./src/css/transicoes.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humanos e Animais</title>
+    <header>
+        <nav>
+            <div class="divlogo">
+                <img src="./src/image/logo.jpg" class="logo" onclick="menu();">
+                <h2 class="textologo"><p class="divisao">Interação entre Animais e Humanos</p></h2>
+            </div>
+            <div class="divmenu">
+                <button onclick="coop();" class="botaomenu" id="coop" name="coop"><h2 class="textomenu">Cooperação</h2></button>
+                <label class="divisor"></label>
+                <button onclick="caca();" class="botaomenu" id="caca" name="coop"><h2 class="textomenu">Caça</h2></button>
+                <label class="divisor"></label>
+                <button onclick="adora();" class="botaomenu"><h2 class="textomenu" name="adora" id="adora">Adoração</h2></button>
+            </div>
+            <label class="divisor"></label>
+            <div class="divlogo">
+                <h3 class="jogotext"><p class="jogop">J O G O</p></h3>
+                <img src="./src/image/caça.jpg" class="jog">
+            </div>
+        </nav>
+    </header>
+</head>
+<body class="divlegal">
+    <canvas id="canvas" style="padding: 20px 20px 20px 30%" width="500" height="500"></canvas>
+    <div style="display: none;">
+        <img id="animais" src="./src/imagejogos/animais.png" alt="" width="35" height="20">
+        <img width="140" height="20" src="./src/imagejogos/ghost.png" id="ghosts" alt="">
+    </div>
+    <script src="./src/js/pacman.js"></script>
+    <script src="./src/js/ghost.js"></script>
+    <script src="./src/js/game.js"></script>
+</body>
+<script src="./src/js/index.js"></script>
+</html>
